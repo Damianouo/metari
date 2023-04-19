@@ -49,8 +49,11 @@ function Navbar() {
 	return (
 		<AppBar position='sticky'>
 			<StyledToolbar>
-				<Toolbar variant='h6' sx={{ display: { xs: 'none', sm: 'block' } }}>
-					LAMA DEV
+				<Toolbar
+					variant='h6'
+					sx={{ display: { xs: 'none', sm: 'block' }, fontSize: '2rem', fontWeight: '600' }}
+				>
+					DAMN DEV
 				</Toolbar>
 				<Pets sx={{ display: { xs: 'block', sm: 'none' } }} />
 				<Search>

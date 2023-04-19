@@ -1,10 +1,13 @@
 import { Box } from '@mui/material';
 import React from 'react';
+import Post from './Post';
 
 function Feed() {
 	return (
-		<Box bgcolor='pink' flex={4} p={2}>
-			Feed
+		<Box bgcolor='pink' sx={{ flex: '1 1 56%' }}>
+			<Post />
+			<Post />
+			<Post />
 		</Box>
 	);
 }
