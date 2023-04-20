@@ -4,7 +4,7 @@ import Post from './Post';
 
 function Feed() {
 	return (
-		<Box bgcolor='pink' sx={{ flex: '1 1 56%' }}>
+		<Box sx={{ flex: '1 1 56%' }}>
 			<Post />
 			<Post />
 			<Post />
